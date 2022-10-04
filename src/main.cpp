@@ -1,6 +1,7 @@
-#include <iostream>
-int main()
+#include <QApplication>
+int main(int argc, char *argv[])
 {
-  
-std::cout<<"hooooo";
+    QApplication a(argc,argv);
+
+    return a.exec();
 }
